@@ -2,10 +2,11 @@
 
 Steps to accomplish the push notifications in this project:
 
-1. Install firebase, @angular/fire and @angular/pwa -> npm/yarn/pnpm install firebase @angular/fire @angular/pwa
-2. Rename firebase-setup-sample.ts file to -> firebase-setup.ts
-3. Add your firebase configuration to the firebase-setup.ts file
-4. Setup new version availability and subscribe to read notifications in the app.component.ts file
+1. Install firebase, @angular/fire and @angular/pwa -> npm/yarn/pnpm install firebase @angular/fire
+2. ng add @angular/pwa
+3. Rename firebase-setup-sample.ts file to -> firebase-setup.ts
+4. Add your firebase configuration to the firebase-setup.ts file
+5. Setup new version availability and subscribe to read notifications in the app.component.ts file
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
